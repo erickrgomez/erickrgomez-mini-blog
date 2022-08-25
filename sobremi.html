@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--SECCION DE META DATA-->
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="imagen/titulo.png" type="image/x-icon" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MINI BLOG (SOBREMI)</title>
+    <meta
+      name="description"
+      content="Pagina de Ejemplo para Proyecto Web Basico con HTML5, CSS,  Git y Git-Hub de IHC"
+    />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="ING. JUANCITO PEÑA, EDITADO POR ING. ERICK GOMEZ"/>
+    <meta name="copyright" content="https://advisertecnology.com/" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <!--ENCABEZADO-->
+      <header>
+        <h1><img src="imagen/titulo.png" width="30px">Erick Gómez (Blog)</h1>
+      </header>
+      <!--NAVEGACION-->
+      <nav>
+        <div class="topnav" id="myTopnav">
+          <a href="index.html">Inicio</a>
+          <a href="sobremi.html" class="active">Sobre Mi</a>
+          <a href="curso.html">Cursos</a>
+          <a href="contactos.html">Contactos</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </nav>
+      <!--CONTENIDO-->
+      <section id="contenido">
+        <!--ARTICULOS-->
+        <article>
+          <h2>¿Quien Soy?</h2>
+          <hr/>
+          <p class="Articulo1">
+            Mi Nombre es Erick Gomez, soy estudiante de la Universidad
+            Dominicana O&M, estudio Ingenieria en Sistemas y Computación, soy
+            Programador frontend y backend, Diseñador de interfaces, Social
+            Networks Manager..
+          </p>
+
+          <img
+            class="foto"
+            src="https://avatars.githubusercontent.com/u/109185215?v=4"
+            alt="Foto"
+          /><br />
+          <h3 class="sklill">Front-end | Back-end | Blogger | Streamer</h3>
+          <br />
+          <br />
+
+          <p class="Articulo1">
+            Soy un entusiasta de la ciencia de datos con un gran interés en el
+            análisis de datos. Mi pasión por el Codigo y los Numeros alimenta mi
+            búsqueda de conocimiento y desarrollo personal en el uso y la
+            aplicación del Analisis de Datos.
+            <br />
+            <br />
+            Reconozco el valor de las tecnologías, y los aportes a las mejoras
+            productivas, de negocios y educación que brindan. Tengo mas de 10
+            años de experiencia trabajando con Sistemas de Información (CRM, y
+            ERP), orientados a procesos tecnológicos, administrativos,
+            productivos y de marketing, he trabajado en implementaciones de
+            Software para las mejores tomas de decisiones con Inteligencia de
+            Datos, desde el problema, los requerimientos hasta el testing,
+            lanzamiento, y entrenamiento del personal, y como ingeniero tengo
+            experiencia y pasión por el Desarrollo Web Frontend / Backend con
+            (HTML, CSS, JavaScrip, PHP, Python, C#).
+            <br />
+            <br />
+            Conocimientos avanzados en Administracion de Redes y Cableado
+            Estructurado, y manejo Sistemas Operativos Windows Server, Linux,
+            Sistemas de Telefonía IP (Grandstream, Issabel, Elastix),
+            Ciberseguridad, Firewall, ACL, Proxy, P.SI., Routing y Switching,
+            entre otras disciplinas.
+          </p>
+          <div class="redes">
+            <h2>Redes Sociales</h2>
+  
+            <!-- Agregamos font awesome icons -->
+            <a href="#" class="fa fa-linkedin-square" style="font-size: 30px"></a>
+            <a href="#" class="fa fa-youtube-square" style="font-size: 30px"></a>
+            <a href="#" class="fa fa-facebook-square" style="font-size: 30px"></a>
+            <a href="#" class="fa fa-twitter-square" style="font-size: 30px"></a>
+            <a href="#" class="fa fa-github-square" style="font-size: 30px"></a>
+          </div>
+          <br>
+          <br>
+        </article>
+      </section>
+      <!--PUBLICIDAD-->
+      <aside>
+        <hr>
+        <h2>Ads📢</h2>
+        <img
+          src="https://blog.fmb.mx/hubfs/blog/facebook-ads-marketing-digital-social-media.gif"
+          alt=""
+        />
+        <br />
+        <img
+          src="https://cdn-e360.s3-sa-east-1.amazonaws.com/google-ads-large-4hGQ6JB8ch.png"
+          alt=""
+        />
+        <br />
+        <h2>Data Science</h2>
+        <iframe
+          class="video"
+          src="https://www.youtube.com/embed/Lt2P88q0Y68"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <br />
+
+        <br />
+        <h2>Desarrollo Web</h2>
+        <iframe
+          class="video"
+          src="https://www.youtube.com/embed/ExsGyZDBlJQ"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <br/>
+      </aside>
+
+      <div class="clearfix"></div>
+      <footer>
+        <p class="footer">
+          Erick Gomez - Derechos Reservados @2022
+        </p>
+      </footer>
+    </div>
+
+    <!--FUNCION JAVASCRIPT PARA EL MENU-->
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </body>
+</html>
